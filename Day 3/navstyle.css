@@ -1,0 +1,31 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(255, 255, 255);
+  }
+  .nav-list {
+    background: rgb(230, 228, 228);
+    margin: 0;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .nav-item {
+    margin-right: 2rem;
+    color: black;
+  }
+  .nav-item a:hover {
+    text-decoration: none;
+    color: goldenrod;
+  }
+  
+  .nav-item a:link {
+    color: black;
+  }
+  
+  .nav-item:first-child {
+    margin-right: auto;
+    margin-left: 2rem;
+  }
+  
